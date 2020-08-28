@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+    text-align: center;
+}
+
+h1 {
+    border: 8px solid rgb(173, 173, 173);
+    margin: 0 auto;
+}
+
+.hours {
+    border: 2px dotted red;
+    color: black;
+    font-size: 16px;
+    line-height: 48px;
+    line-width: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.contact {
+    border: 2px dotted red;
+    color: black;
+    font-size: 16px;
+    line-height: 48px;
+    line-width: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.location {
+    border: 2px dotted red;
+    color: black;
+    font-size: 16px;
+    line-height: 48px;
+    line-width: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.share a {
+    background: red;
+    border 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+}
