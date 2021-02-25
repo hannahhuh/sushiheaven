@@ -26,6 +26,17 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 4px;
 }
 
+.btn {
+    max-height: 4.5em;
+    border: none;
+    padding: 2.75em 3.25em;
+    font-family: inherit;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    background-color:black;
+}
+
 #banner .content h1 {
     border: 15px solid white;
     position: relative;
