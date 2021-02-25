@@ -33,13 +33,12 @@ font-family: "Raleway", sans-serif;
     position: relative;
     text-align: center;
     font-family: "Raleway", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    color: white;
-    background-color: grey;
+    width: 100%;
 }
 
-.btn a{
+.btn a {
     background: grey;
     border: 1px solid grey;
     border-radius: 3px;
