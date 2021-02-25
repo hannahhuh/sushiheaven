@@ -30,7 +30,7 @@ font-family: "Raleway", sans-serif;
     max-height: 3.5em;
     border: 1px solid lightgrey;
     padding: 1.75em 2.25em;
-    position: relative;
+    position: center;
     text-align: center;
     width: 50%;
 }
@@ -40,7 +40,6 @@ font-family: "Raleway", sans-serif;
     border: 1px solid grey;
     border-radius: 3px;
     color: white;
-    display: inline-block;
     margin: 10px;
     padding: 14px;
     text-decoration: none;
