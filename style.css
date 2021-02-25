@@ -27,14 +27,15 @@ font-family: "Raleway", sans-serif;
 }
 
 .btn {
-    max-height: 4.5em;
+    max-height: 3.5em;
     border: none;
-    padding: 2.75em 3.25em;
+    padding: 1.75em 2.25em;
     font-family: inherit;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     color: white;
-    background-color:black;
+    background-color: grey;
+    text-align: center;
 }
 
 #banner .content h1 {
