@@ -27,7 +27,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .button {
-    max-height: 10em;
+    height: 5em;
     position: center;
     text-align: center;
     width: 100%;
