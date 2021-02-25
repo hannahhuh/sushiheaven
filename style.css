@@ -28,7 +28,6 @@ font-family: "Raleway", sans-serif;
 
 .button {
     max-height: 3.5em;
-    border: 1px solid lightgrey;
     padding: 1.75em 2.25em;
     position: center;
     text-align: center;
@@ -37,7 +36,6 @@ font-family: "Raleway", sans-serif;
 
 .button a {
     background: grey;
-    border: 1px solid grey;
     border-radius: 3px;
     color: white;
     margin: 10px;
@@ -47,7 +45,6 @@ font-family: "Raleway", sans-serif;
 
 .button a:hover {
     background: white;
-    border: 1px solid grey;
     color: grey;
 }
 
