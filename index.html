@@ -13,46 +13,61 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-   <nav class="navigation">
-        <ul>
-            <li>LOCAL</li>
-            <li>CARMEL</li>
-            <li class="logo">SUSHI HEAVEN</li>
-            <li>AUTHENTIC</li>
-            <li>SINCE 2003</li>
-        </ul>
-    </nav>
-    <div class="button">
-        <script>
-        function onlineOrder() {
-            window.location='https://sushiheaven-carmel.menu11.com/carmel/order';
-        }
-        </script>
-        <button class="btn" type="button" onclick="onlineOrder();">Online Order Here!</button>
-    </div>
-
-    <div id="banner">
-        <div class="content">
-            <h1>SUSHI HEAVEN</h1>
-        </div> 
-    </div> 
-    <img src="logo.jpg" width="430" height="500" class="center">
-    <br>
-    <br>
-    <br>
-    <div id="main" class="content">
-         <h1>Current Hours</h1>
-        <h2>Monday: 5:00 P.M. - 8:30 P.M.</h2>
-        <h2>Tuesday-Saturday: 12:00 PM-2:00 PM | 5:00 PM-8:30 PM</h2>
-        <span class="byline">Soon Huh</span>
-    </div>
-    <div class="share">
-        <nav>
-            <a href="menus.html">Menus</a>
-            <a href="media.html">Gallery</a>
-            <a href="contact.html">Contact Us</a>
+    <div id="container">
+        <nav class="navigation">
+            <ul>
+                <li class="logo">SUSHI HEAVEN</li>
+                <img src="logo.jpg" width="108" height="125" class="center">
+                <li>SINCE 2003</li>
+            </ul>
         </nav>
+        <div id="mobile-header">
+            <img src="sushiheaven.png" class="center">
+        </div>
+        <div class="mobile-nav">
+            |<a href="#about"><span>About</span></a> | <a href="#menu"><span>Menu</span></a> | <a href="#media"><span>Gallery</span></a> | <a href="order"><span>Order Online</span></a> | 
+        </div>
+    </div>
+    <div id="content">
+        <a href="#" class="close">
+            <div class="x">
+                <h3>close <strong>X</strong></h3>
+            </div>
+        </a>
+        <a href="#" class="close">
+            <div class="overlay">
+            </div>
+        </a>
+        <div class="outer about2">
+            <div class="inner">
+                <div class="inner2">
+                    <h2>about restaurant</h2>
+                </div>
+            </div>
+        </div>
+        <div class="outer menu2">
+            <div class="inner">
+                <div class="inner2">
+                    <img src="" class="" />
+                </div>
+            </div>
+        </div>
+        <div class="outer media2">
+            <div class="inner">
+                <div class="inner2">
+                    <img src="" class="" />
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div id="mobile-nav">
+        <ul>
+            <li class="about">About</li>
+            <li class="menu">Menu</li>
+            <li class="media">Gallery</li>
+            <a href="https://sushiheaven-carmel.menu11.com/carmel/order" target="_blank"><li>Order Online</li></a>
+        </ul>
+    </div>
 </body>
 </html>
